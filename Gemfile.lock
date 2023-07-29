@@ -83,6 +83,7 @@ GEM
       addressable
     date (3.3.3)
     erubi (1.12.0)
+    ffi (1.15.5)
     globalid (1.1.0)
       activesupport (>= 5.0)
     htmlbeautifier (1.4.2)
@@ -163,6 +164,16 @@ GEM
     rake (13.0.6)
     redcarpet (3.6.0)
     rouge (4.1.2)
+    sass-rails (6.0.0)
+      sassc-rails (~> 2.1, >= 2.1.1)
+    sassc (2.4.0)
+      ffi (~> 1.9)
+    sassc-rails (2.1.2)
+      railties (>= 4.0.0)
+      sassc (>= 2.0)
+      sprockets (> 3.0)
+      sprockets-rails
+      tilt
     sprockets (4.2.0)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
@@ -172,6 +183,7 @@ GEM
       sprockets (>= 3.0.0)
     sqlite3 (1.6.3-arm64-darwin)
     thor (1.2.2)
+    tilt (2.2.0)
     timeout (0.4.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
@@ -190,6 +202,7 @@ PLATFORMS
 
 DEPENDENCIES
   puma
+  sass-rails
   sprockets-rails
   sqlite3
   uistiti!
