@@ -1,0 +1,15 @@
+/* CSS for Navbar  */
+
+.Navbar {
+  padding: $size-space-medium;
+  
+  &--primary {
+    background-color: $color-brand-primary-base;
+    color: $color-font-inverse-base
+  };
+
+  &--secondary {
+    background-color: $color-brand-secondary-base;
+    color: $color-font-inverse-base
+  };
+}

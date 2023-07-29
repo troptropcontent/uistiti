@@ -1,0 +1,8 @@
+<%= render Uistiti::Alpha::Flex.new(direction: :row, justify_content: 'space-between', html_options: {class: classes})  do %>
+  <%= logo %>
+  <%= render Uistiti::Alpha::Flex.new(direction: :row) do %>
+    <% links.each do |link| %>
+      <%= link  %>
+    <% end %>
+  <% end %>
+<% end %>
