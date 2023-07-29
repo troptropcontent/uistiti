@@ -3,12 +3,13 @@
 module Uistiti
   module Alpha
     class Link < ViewComponent::Base
-      def initialize(path:, method:, color:)
+      def initialize(path:, method:, color:, text: nil)
         super()
         
         @path = path        
         @method = method   
-        @color = color     
+        @color = color  
+        @text = text   
       end
 
       private
