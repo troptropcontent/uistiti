@@ -1,5 +1,7 @@
 /* CSS for MainLayout  */
 
 .MainLayout {
-
+  background-color: $color-background-base;
+  padding-block: $size-space-small;
+  padding-inline: $size-space-medium;
 }
