@@ -1,0 +1,19 @@
+/* CSS for Image  */
+
+.Image {
+  &--small {
+    width: $size-image-small;
+  };
+  &--medium {
+    width: $size-image-medium;
+  };
+  &--large {
+    width: $size-image-large;
+  };
+  &--xl {
+    width: $size-image-xl;
+  };
+  &--xxl {
+    width: $size-image-xxl;
+  };
+}
