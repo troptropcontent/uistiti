@@ -1,0 +1,14 @@
+# frozen_string_literal: true
+
+module Uistiti
+  <%= "module #{module_name}" if status_module %>
+    class <%= class_name %> < ViewComponent::Base
+      def initialize(<%= arguments.map{|argument| argument + ':'}.join(', ') %>)
+        super()
+        <% arguments.each do |argument| %>
+        <%= "@#{argument} = #{argument}" -%>
+        <% end %>
+      end
+    end
+  <%= "end" if status_module %>
+end

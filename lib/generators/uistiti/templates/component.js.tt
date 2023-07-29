@@ -1,0 +1,8 @@
+import { Controller } from "@hotwired/stimulus";
+
+// this stimulus controller can be registered with identifier : <%= stimulus_controller_identifier %>
+export default class extends Controller {
+  connect() {
+    console.log("Hello, from <%= underscore_name %> stimulus controller !", this.element);
+  }
+}
