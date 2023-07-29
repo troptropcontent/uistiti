@@ -1,5 +1,7 @@
 <%= render Uistiti::Alpha::Flex.new(direction: :row, justify_content: 'space-between', html_options: {class: classes})  do %>
-  <%= logo %>
+  <%= render Uistiti::Alpha::Link.new(path: '/', color: 'inverse-base') do %>
+    <%= logo %>
+  <% end %>
   <%= render Uistiti::Alpha::Flex.new(direction: :row) do %>
     <% links.each do |link| %>
       <%= link  %>
