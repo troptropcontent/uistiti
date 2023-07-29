@@ -3,7 +3,7 @@
 module Uistiti
   module Alpha
     class Link < ViewComponent::Base
-      def initialize(path:, method:, color:, text: nil)
+      def initialize(path:, method: :get, color: nil, text: nil)
         super()
         
         @path = path        
