@@ -5,18 +5,18 @@ Gem::Specification.new do |spec|
   spec.version     = Uistiti::VERSION
   spec.authors     = ["Tom Ecrepont"]
   spec.email       = ["tomecrepont@gmail.com"]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of Uistiti."
-  spec.description = "TODO: Description of Uistiti."
+  spec.homepage    = "https://github.com/rails-hackathon/team-173"
+  spec.summary     = "Ready to use ViewComponent libray"
+  spec.description = "Ui responsive primitives with javascript and css included for increased productivity"
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the "allowed_push_host"
   # to allow pushing to a single host or delete this section to allow pushing to any host.
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+  # spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/rails-hackathon/team-173"
+  spec.metadata["changelog_uri"] = "https://github.com/rails-hackathon/team-173"
 
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
     Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
