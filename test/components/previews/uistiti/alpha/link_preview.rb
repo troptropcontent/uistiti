@@ -9,9 +9,10 @@ module Uistiti
       # Declare each possible params bellow, please see how to declare params and annotate previews https://lookbook.build/guide/previews/annotations
       
       # @param path      
-      # @param method      
-      def playground(path: 'some value', method: 'some value')
-        render(Uistiti::Alpha::Link.new(path:, method:))
+      # @param method select [get, delete]      
+      # @param color select [base, inverse-base, primary, secondary]      
+      def playground(path: 'some value', method: :get, color: :base)
+        render(Uistiti::Alpha::Link.new(path:, method:, color:).with_content('Link'))
       end
     end
   end

@@ -1,5 +1,17 @@
 /* CSS for Link  */
 
 .Link {
-  color: red;
+  text-decoration: none;
+  &--inverse-base{
+    color: $color-font-link-inverse-base;
+  }
+  &--base{
+    color: $color-font-link-base;
+  }
+  &--primary{
+    color: $color-font-link-primary;
+  }
+  &--secondary{
+    color: $color-font-link-secondary;
+  }
 }
