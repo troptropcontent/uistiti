@@ -8,9 +8,7 @@ module Uistiti
 
       def initialize(color:)
         super()
-        puts '#'*80
-        puts color
-        puts '#'*80
+   
         @color = color        
       end
 
