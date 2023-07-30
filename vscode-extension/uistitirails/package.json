@@ -1,5 +1,6 @@
 {
   "name": "uistitirails",
+  "publisher": "UistitiUiKit",
   "displayName": "UistitiRails",
   "description": "Uistiti Code snippets",
   "version": "0.0.1",
@@ -19,6 +20,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/vscode-wordcount.git"
+    "url": "https://github.com/rails-hackathon/team-173/tree/development/vscode-extension/uistitirails"
   }
 }
