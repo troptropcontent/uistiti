@@ -1,3 +1,5 @@
+<img width="1200" alt="Capture d’écran 2023-07-30 à 21 42 11" src="https://github.com/rails-hackathon/team-173/assets/75135824/8e38a2bf-2ae8-4cc0-a99b-d553eb374a34">
+
 # Uistiti UI kit for Rails
 This gem holds everything you need (UI speaking) to create nice User interface.
 It comes with CSS style (customisable for sure) and Javascript out of the bout. 
