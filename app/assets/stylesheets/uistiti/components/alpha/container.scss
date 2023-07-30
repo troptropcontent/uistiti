@@ -1,0 +1,9 @@
+/* CSS for Container  */
+
+.Container {
+  padding-inline: $size-space-medium;
+
+  @media (min-width: $breakpoint-medium) {
+    padding-inline: $size-space-xxl;
+  }
+}
