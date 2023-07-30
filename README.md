@@ -5,6 +5,9 @@ For productivity enhancement i also published a [VsCode extension](https://marke
 
 ![uistiti_extension](https://github.com/rails-hackathon/team-173/assets/75135824/afdcacc9-81b7-4ec1-9eb2-69e01a21af12)
 
+Example of something that have been built very fast with the GEM [demo](https://polished-field-4685.fly.dev/) (The source code is [here](https://github.com/troptropcontent/uistiti-showcase))
+
+[LookBook of the different component developped during the Hackathon](https://polished-field-4685.fly.dev/uistiti/lookbook/inspect/uistiti/alpha/button/playground)
 
 ## Usage
 How to use the plug in :
@@ -59,9 +62,6 @@ pin_all_from Uistiti.stimulus_controllers_directory, under: "controllers/uistiti
 ```
 
 and you should be good to go, no npm, nothing more 🥰
-
-Example of something that have been built very fast with the GEM [demo](https://polished-field-4685.fly.dev/) (The source code is [here](https://github.com/troptropcontent/uistiti-showcase))
-[LookBook of the different component developped during the Hackathon](https://polished-field-4685.fly.dev/uistiti/lookbook/inspect/uistiti/alpha/button/playground)
 
 ## Contributing
 Contribution directions go here.
