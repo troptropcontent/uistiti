@@ -9,6 +9,8 @@ Example of something that have been built very fast with the GEM [demo](https://
 
 [LookBook of the different component developped during the Hackathon](https://polished-field-4685.fly.dev/uistiti/lookbook/inspect/uistiti/alpha/button/playground)
 
+[Quick video to explain how it work](https://share.vidyard.com/watch/2JSLZidGCBD1UohAUYexEf?)
+
 ## Usage
 How to use the plug in :
 
