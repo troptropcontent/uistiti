@@ -7,5 +7,6 @@ module Uistiti
 
     #Show to lookbook where it can find the previews
     Lookbook.config.preview_paths = [File.join(root, 'test/components/previews')]
+    Lookbook.config.preview_layout = "component_preview"
   end
 end
