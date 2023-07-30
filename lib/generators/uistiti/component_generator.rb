@@ -23,7 +23,7 @@ module Uistiti
     end
 
     def create_preview
-      template("preview.tt", "test/components/previews/uistiti/#{status_path}#{underscore_name}_preview.rb")
+      template("preview.tt", "app/components/previews/uistiti/#{status_path}#{underscore_name}_preview.rb")
     end
     
     private
