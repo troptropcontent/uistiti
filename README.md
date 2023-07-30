@@ -3,6 +3,9 @@ This gem holds everything you need (UI speaking) to create nice User interface.
 It comes with CSS style (customisable for sure) and Javascript out of the bout. 
 For productivity enhancement i also published a [VsCode extension](https://marketplace.visualstudio.com/items?itemName=UistitiUiKit.uistitirails) wich give you snippets for all the component of the library.
 
+![uistiti_extension](https://github.com/rails-hackathon/team-173/assets/75135824/afdcacc9-81b7-4ec1-9eb2-69e01a21af12)
+
+
 ## Usage
 How to use the plug in :
 
