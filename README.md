@@ -60,7 +60,7 @@ pin_all_from Uistiti.stimulus_controllers_directory, under: "controllers/uistiti
 
 and you should be good to go, no npm, nothing more 🥰
 
-Example of something that have been built very fast with the GEM [demo](https://polished-field-4685.fly.dev/)
+Example of something that have been built very fast with the GEM [demo](https://polished-field-4685.fly.dev/) (The source code is [here](https://github.com/troptropcontent/uistiti-showcase))
 [LookBook of the different component developped during the Hackathon](https://polished-field-4685.fly.dev/uistiti/lookbook/inspect/uistiti/alpha/button/playground)
 
 ## Contributing
