@@ -28,7 +28,24 @@ Now in your views you can use Uistiti components just as normal ViewComponents :
 <% end %>
 ```
 
-For the CSS files related to the components are based on variables
+For the CSS & style :
+All the CSS files relies on a set of [variables](https://github.com/rails-hackathon/team-173/blob/development/app/assets/stylesheets/uistiti/config/_variables.scss), if you want to start using styled component you can import them in you application.scss file
+
+```css
+//app/assets/stylesheets/aplication.scss
+@import 'uistiti/config/variables';
+```
+If you want to update the colors and the different design tokens, you can dowload the file and modify the values you want and import the local file instead of the one from the gem.
+
+Then, for each component you use you can import the related css
+```css
+//app/assets/stylesheets/aplication.scss
+@import 'uistiti/config/variables';
+@import 'uistiti/components/alpha/flex';
+```
+
+For Component with javascript behavior, there is nothing to do, the controllers are automatically registered through the asset pipe line and import-map.
+
 
 
 ## Contributing
