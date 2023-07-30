@@ -1,1 +1,1 @@
-//= link_directory ../stylesheets/uistiti .css
+//= link_tree ../javascript
