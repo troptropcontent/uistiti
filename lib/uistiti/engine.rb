@@ -7,7 +7,7 @@ module Uistiti
 
     #Show to lookbook where it can find the previews
     puts '*'*80
-    puts File.join(Uistiti::Engine.root, 'test/components/previews')
+    puts Dir[File.join(Uistiti::Engine.root, 'test/components/previews/**/*.rb')]
     puts '*'*80
     Lookbook.config.preview_paths = [File.join(Uistiti::Engine.root, 'test/components/previews')]
     Lookbook.config.preview_layout = "uistiti/component_preview"
