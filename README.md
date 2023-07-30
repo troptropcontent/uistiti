@@ -21,6 +21,14 @@ And then execute:
 $ bundle
 ```
 
+Now in your views you can use Uistiti components just as normal ViewComponents :
+```ruby
+<%= render Uistiti::Alpha::Flex.new(direction: :column, justify_content: :space_between)  do %>
+ <%= items %>
+<% end %>
+```
+
+For the CSS files related to the components are based on variables
 
 
 ## Contributing
