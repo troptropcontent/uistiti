@@ -5,6 +5,9 @@ For productivity enhancement i also published a [VsCode extension](https://marke
 
 ![uistiti_extension](https://github.com/rails-hackathon/team-173/assets/75135824/afdcacc9-81b7-4ec1-9eb2-69e01a21af12)
 
+Example of something that have been built very fast with the GEM [demo](https://polished-field-4685.fly.dev/) (The source code is [here](https://github.com/troptropcontent/uistiti-showcase))
+
+[LookBook of the different component developped during the Hackathon](https://polished-field-4685.fly.dev/uistiti/lookbook/inspect/uistiti/alpha/button/playground)
 
 ## Usage
 How to use the plug in :
@@ -44,9 +47,21 @@ Then, for each component you use you can import the related css
 @import 'uistiti/components/alpha/flex';
 ```
 
-For Component with javascript behavior, there is nothing to do, the controllers are automatically registered through the asset pipe line and import-map.
+For Component with javascript behavior, there is no much things to do, the controllers are automatically registered through the asset pipe line and import-map:
 
+```javascript
+//app/assets/config/manifest.js
+...
+//= link uistiti_manifest.js
+```
 
+```ruby
+#config/importmap.rb
+...
+pin_all_from Uistiti.stimulus_controllers_directory, under: "controllers/uistiti"
+```
+
+and you should be good to go, no npm, nothing more 🥰
 
 ## Contributing
 Contribution directions go here.
