@@ -44,7 +44,21 @@ Then, for each component you use you can import the related css
 @import 'uistiti/components/alpha/flex';
 ```
 
-For Component with javascript behavior, there is nothing to do, the controllers are automatically registered through the asset pipe line and import-map.
+For Component with javascript behavior, there is no much things to do, the controllers are automatically registered through the asset pipe line and import-map:
+
+```javascript
+//app/assets/config/manifest.js
+...
+//= link uistiti_manifest.js
+```
+
+```ruby
+#config/importmap.rb
+...
+pin_all_from Uistiti.stimulus_controllers_directory, under: "controllers/uistiti"
+```
+
+and you should be good to go, no npm, nothing more 🥰
 
 
 
