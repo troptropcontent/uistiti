@@ -1,0 +1,4 @@
+<%= render Uistiti::Alpha::Flex.new(direction: @direction)  do %>
+  <label for="<%= @field %>"><%= @label %></label>
+  <%= @form.send(@type, @field, required: @required )%>
+<% end %>
