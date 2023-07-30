@@ -1,0 +1,59 @@
+{
+	// Uisiti::Alpha snippets
+	"Uistiti::Alpha::Link": {
+		"prefix": "ual",
+		"body": [
+			"<%= render Uistiti::Alpha::Link.new(path: ${1:path}, color: ${2:color}) do %>",
+			" <%= ${3:content} %>",
+			"<% end %>",
+		],
+		"description": "Uistiti::Alpha::Link"
+	},
+	"Uistiti::Alpha::Flex": {
+		"prefix": "uaf",
+		"body": [
+			"<%= render Uistiti::Alpha::Flex.new(direction: ${1:direction}, justify_content: ${2:justify_content}, align_items: ${3:align_items}, html_options: ${4:html_options})  do %>",
+			" <%= ${5:items} %>",
+			"<% end %>"
+		],
+		"description": "Uistiti::Alpha::Flex"
+	},
+	"Uistiti::Alpha::Image": {
+		"prefix": "uai",
+		"body": [
+			"<%= render Uistiti::Alpha::Image.new(source: ${1:source}, size: ${2:size}) %>",
+		],
+		"description": "Uistiti::Alpha::Image"
+	},
+	"Uistiti::Alpha::Container": {
+		"prefix": "uac",
+		"body": [
+			"<%= render Uistiti::Alpha::Container.new do %>",
+			" <%= ${1:content} %>",
+			"<% end %>"
+		],
+		"description": "Uistiti::Alpha::Container"
+	},
+	"Uistiti::Alpha::Button": {
+		"prefix": "uab",
+		"body": [
+			"<%= render Uistiti::Alpha::Button.new(color: ${1:color}).with_content(${2:content})%>"
+		],
+		"description": "Uistiti::Alpha::Container"
+	},
+	"Uistiti::Alpha::FormSubmit": {
+		"prefix": "uafs",
+		"body": [
+			"<%= render Uistiti::Alpha::FormSubmit.new(form: ${1:form}, text: ${2:text}, color: ${3:color})%>"
+		],
+		"description": "Uistiti::Alpha::FormSubmit"
+	},
+	"Uistiti::Alpha::FormInputGroup": {
+		"prefix": "uafig",
+		"body": [
+			"<%= render Uistiti::Alpha::FormInputGroup.new(form: ${1:form}, type: ${2:type}, field: ${3:field_name}, label: ${4:label}) %>"
+		],
+		"description": "Uistiti::Alpha::FormInputGroup"
+	}
+}
+
