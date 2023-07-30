@@ -1,8 +1,13 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-# Specify your gem's dependencies in uistiti.gemspec.
-gemspec
+
+if ENV['RAILS_ENV'] == "production"
+  # Specify your gem's dependencies in uistiti.gemspec.
+  gemspec
+else
+  gem "uistiti"
+end
 
 gem "puma"
 
