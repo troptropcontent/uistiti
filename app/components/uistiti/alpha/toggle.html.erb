@@ -1,0 +1,4 @@
+<%= label_tag 'toggle', nil, class: 'Toggle', data: {controller: 'uistiti--alpha--link'} do %>
+  <%= check_box_tag 'toggle', true, @checked, class: 'Toggle__input' %>
+  <%= content_tag :div, nil, class: button_classes %>
+<% end %>
