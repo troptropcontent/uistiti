@@ -11,6 +11,8 @@ gem "sprockets-rails"
 
 gem "importmap-rails"
 
+gem "stimulus-rails"
+
 gem "sass-rails"
 
 # Start debugger with binding.b [https://github.com/ruby/debug]

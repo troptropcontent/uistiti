@@ -185,6 +185,8 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.6.3-arm64-darwin)
+    stimulus-rails (1.2.1)
+      railties (>= 6.0.0)
     thor (1.2.2)
     tilt (2.2.0)
     timeout (0.4.0)
@@ -209,6 +211,7 @@ DEPENDENCIES
   sass-rails
   sprockets-rails
   sqlite3
+  stimulus-rails
   uistiti!
 
 BUNDLED WITH
