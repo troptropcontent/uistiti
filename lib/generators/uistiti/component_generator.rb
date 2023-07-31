@@ -19,7 +19,7 @@ module Uistiti
     end
 
     def create_stimulus
-      template("component.js.tt", "app/assets/javascript/controllers/uistiti/#{status_path}#{underscore_name}/#{underscore_name}_controller.js")
+      template("component.js.tt", "app/assets/javascript/controllers/uistiti/#{status_path}#{underscore_name}_controller.js")
     end
 
     def create_preview
