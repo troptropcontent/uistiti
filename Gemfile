@@ -1,19 +1,15 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-
-if ENV['RAILS_ENV'] == "production"
-  # Specify your gem's dependencies in uistiti.gemspec.
-  gemspec
-else
-  gem "uistiti"
-end
+gemspec
 
 gem "puma"
 
 gem "sqlite3"
 
 gem "sprockets-rails"
+
+gem "importmap-rails"
 
 gem "sass-rails"
 
