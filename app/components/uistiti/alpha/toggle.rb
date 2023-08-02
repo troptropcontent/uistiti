@@ -23,6 +23,19 @@ module Uistiti
           "Toggle__button--on--#{@color_on}",
         ]
       end
+
+      def input_name
+        "toggle-#{@model}-#{@field}"
+      end
+
+      def wrapper_data_set
+        {
+          controller: 'uistiti--alpha--toggle',
+          'uistiti--alpha--toggle-url-value':  @path,
+          'uistiti--alpha--toggle-model-value': @model,
+          'uistiti--alpha--toggle-field-value': @field
+        }
+      end
     end
   end
 end
