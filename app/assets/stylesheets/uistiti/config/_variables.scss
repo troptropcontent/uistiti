@@ -344,10 +344,10 @@ $color-font-inverse-error: #ef5350;
 $color-font-inverse-warning: #ffa726;
 $color-font-inverse-success: #66bb6a;
 $color-font-inverse-disabled: #f5f5f5;
-//################### FONT LINK ####################
+//################## FONT BUTTON ###################
 $color-font-button-primary: #ffffff;
 $color-font-button-secondary: #009688;
-//################## FONT BUTTON ###################
+//################### FONT LINK ####################
 $color-font-link-primary: $color-brand-primary-base;
 $color-font-link-secondary: $color-brand-secondary-base;
 $color-font-link-base: $color-font-base;
@@ -361,13 +361,17 @@ $radii-base-sm: 8px;
 //##################### SIZES ######################
 //##################################################
 //###################### FONT ######################
-$size-font-tiny: 0.75rem;
+$size-font-xxxxs: 0.05rem;
+$size-font-xxxs: 0.25rem;
+$size-font-xxs: 0.5rem;
+$size-font-xs: 0.75rem;
 $size-font-small: 0.875rem;
 $size-font-medium: 1rem;
 $size-font-large: 1.25rem;
 $size-font-xl: 1.5rem;
 $size-font-xxl: 2rem;
 $size-font-xxxl: 3rem;
+$size-font-xxxxl: 4rem;
 $size-font-base: 1rem;
 //###################### ICON ######################
 $size-icon-small: 1.5rem;

@@ -54,6 +54,15 @@
 			"<%= render Uistiti::Alpha::FormInputGroup.new(form: ${1:form}, type: ${2:type}, field: ${3:field_name}, label: ${4:label}) %>"
 		],
 		"description": "Uistiti::Alpha::FormInputGroup"
+	},
+	"Uistiti::Alpha::Toggle": {
+		"prefix": "uat",
+		"body": [
+			"<%= render(Uistiti::Alpha::Toggle.new(checked: ${1:checked}, path: ${2:path}, model: ${3:model}, field: ${4:field}, color_on: ${4:color_on}, color_off: ${5:color_off})) %>"
+		],
+		"description": "Uistiti::Alpha::Toggle"
 	}
 }
+
+
 
