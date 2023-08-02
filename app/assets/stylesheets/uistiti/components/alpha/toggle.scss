@@ -1,0 +1,61 @@
+/* CSS for Toggle  */
+.Toggle  {
+    &__button {
+      box-sizing: border-box;
+      display: inline-block;
+      width: $size-font-xxxl;
+      height: $size-font-xl;
+      background-color: $color-background-disabled;
+      &--off--disabled {
+        background-color: $color-background-disabled;
+      };
+      &--off--danger {
+        background-color: $color-background-error;
+      };
+      &--off--success {
+        background-color: $color-background-success;
+      };
+      transition: all .4s ease;
+      padding: $size-font-xxxxs;
+      border-radius: $size-font-xxl;
+      &:after,
+      &:before {
+        position: relative;
+        display: block; 
+        content: "";
+        width: 50%;
+        height: 100%;
+      }
+      &:after{
+        left: 0;
+        background-color: $color-base-white;
+        border-radius: 50%;
+        transition: all .2s ease;
+      }
+      &:before{
+        display: none;
+      }
+    }
+
+    &__input {
+      display: none;
+      &:checked {
+        +  .Toggle__button {
+          background-color: $color-background-success;
+          &--on--disabled {
+            background-color: $color-background-disabled;
+          };
+          &--on--danger {
+            background-color: $color-background-error;
+          };
+          &--on--success {
+            background-color: $color-background-success;
+          };
+          &:after{
+            left: 50%;
+          }
+        }
+      }
+    }
+  
+}
