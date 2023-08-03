@@ -1,6 +1,7 @@
 /* CSS for Toggle  */
 .Toggle  {
     &__button {
+      cursor: pointer;
       box-sizing: border-box;
       display: inline-block;
       width: $size-font-xxxl;
