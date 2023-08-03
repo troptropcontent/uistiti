@@ -4,7 +4,7 @@ import { Controller } from "@hotwired/stimulus";
 export default class extends Controller {
   static values = {
     url: String,
-    model: String,
+    paramKey: String,
     field: String,
   }
 
@@ -17,7 +17,8 @@ export default class extends Controller {
     const input_changed_to = input_element.checked
     const csrf_token = document.getElementsByName('csrf-token')[0].content
     const data = new FormData()
-    data.append( `${this.modelValue}[${this.fieldValue}]`,input_changed_to)
+    const form_data_key = `${this.paramKeyValue}[${this.fieldValue}]`
+    data.append( form_data_key,input_changed_to)
 
     const requestOptions = {
       method: 'PUT',
