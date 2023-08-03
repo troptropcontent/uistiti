@@ -1,4 +1,4 @@
-<%= label_tag input_name, nil, class: 'Toggle', data: wrapper_data_set do %>
-  <%= check_box_tag input_name, @checked, @checked, class: 'Toggle__input', data: {action: "change->uistiti--alpha--toggle#sendPutRequest"} %>
+<%= label_tag input_id, nil, id: label_id, class: 'Toggle', data: wrapper_data_set do %>
+  <%= check_box_tag input_id, @checked, @checked, class: 'Toggle__input', data: {action: "change->uistiti--alpha--toggle#sendPutRequest"} %>
   <%= content_tag :div, nil, class: button_classes %>
 <% end %>
