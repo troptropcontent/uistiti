@@ -1,0 +1,10 @@
+<%= content_tag @as, class: classes do -%>
+  <% if @icon %>
+    <span class="material-symbols-outlined">
+      <%= @icon %>
+    </span>
+  <% end %>
+  <span class='Token__text' >
+    <%= content %>
+  </span>
+<% end -%>

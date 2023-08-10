@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
+
+
+.Token {
+  display: flex;
+  padding: $size-space-tiny;
+  flex-direction: row;
+  gap:  $size-space-tiny;
+  align-items: center;
+  width: fit-content;
+  border-radius: $radii-base-sm;
+  color: $color-font-inverse-base;
+
+  &--color {
+    &--success {
+      background-color: $color-background-success;
+    };
+    &--warning {
+      background-color: $color-background-warning;
+    };
+    &--error {
+      background-color: $color-background-error;
+    }
+  }
+
+  &__text {
+    &:not(:only-child) {
+      padding-inline-end: $size-space-small;
+    }
+  }
+
+}
