@@ -8,7 +8,7 @@ module Uistiti
     class TokenPreview < ViewComponent::Preview
       # Declare each possible params bellow, please see how to declare params and annotate previews https://lookbook.build/guide/previews/annotations
       
-      # @param color select [success, warning, error]
+      # @param color select [success, warning, error, disabled]
       def playground(color: 'success')
         render(Uistiti::Alpha::Token.new(color:).with_content('Token'))
       end
@@ -23,6 +23,10 @@ module Uistiti
       
       def cancel
         render(Uistiti::Alpha::Token.new(color: 'error', icon: 'cancel').with_content('Token'))
+      end
+
+      def redeem
+        render(Uistiti::Alpha::Token.new(color: 'disabled', icon: 'redeem').with_content('Token'))
       end
 
      # @!endgroup

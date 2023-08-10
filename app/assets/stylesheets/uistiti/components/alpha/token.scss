@@ -20,6 +20,9 @@
     };
     &--error {
       background-color: $color-background-error;
+    };
+    &--disabled {
+      background-color: $color-background-disabled;
     }
   }
 
